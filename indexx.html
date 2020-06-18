@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Sklepik Internetowy</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mały sklep internetowy</title>
+
+
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/css.css" rel="stylesheet">
+
+
+
+
+</head>
+
+
+
+<body>
+  <style>
+    body {
+      background-image: url('img/background.jpg');
+    }
+  </style>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+
+
+              </button>
+              <a class="navbar-brand" href="index.html"> Strona główna </a>
+              <a class="navbar-brand" href="kontakt.html"> Kontakt </a>
+
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="koszyk"><a href="koszyk.html"> Koszyk ()</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+        <label>Producent:</label>
+        <div class="controls btn-group">
+          <button class="filter btn btn-md btn-warning" data-filter="all">Wszystkie</button>
+          <button class="filter btn btn-md btn-warning" data-filter=".Apple">Apple</button>
+          <button class="filter btn btn-md btn-warning" data-filter=".HTC">HTC</button>
+          <button class="filter btn btn-md btn-warning" data-filter=".Dell">Dell</button>
+          <button class="filter btn btn-md btn-warning" data-filter=".HP">HP</button>
+        </div>
+
+        <div class="pull-right">
+          <label>Cena:</label>
+          <div class="controls btn-group">
+            <button class="sort btn btn-md btn-warning" data-sort="price:asc">Rosnąco</button>
+            <button class="sort btn btn-md btn-warning" data-sort="price:desc">Malejąco</button>
+          </div>
+        </div>
+
+        <p>&nbsp;</p>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="Container" class="container">
+
+
+    <div class="row">
+
+      <div class="col-md-4 item text-center  mix Apple" data-price="1999.99">
+        <div class="simpleCart_shelfItem">
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="nazwa">Apple iPhone</h2>
+              <a href="produkt.html"><img class="item_thumb zdj" src="img/Apple-iPhone.png" alt="Telefon"></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="cena">1999.99zł</h2>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-4">
+
+            </div>
+
+            <div class="col-xs-3">
+              <input value="1" type="text" form-control placeholder="Ilość"><br>
+
+            </div>
+
+            <div class="col-xs-5">
+              <a class="item_add btn btn-primary" href="javascript:;"> Dodaj! </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-4 item text-center  mix Dell" data-price="1399.99">
+        <div class="simpleCart_shelfItem">
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="nazwa">Dell Axim</h2>
+              <img class="item_thumb zdj" src="img/Dell-Axim.png" alt="Telefon">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="cena">1399.99zł</h2>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-4">
+
+            </div>
+
+            <div class="col-xs-3">
+              <input value="1" type="text" form-control placeholder="Ilość"><br>
+
+            </div>
+
+            <div class="col-xs-5">
+              <a class="item_add btn btn-primary" href="javascript:;"> Dodaj! </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 item text-center  mix HP" data-price="1299.99">
+        <div class="simpleCart_shelfItem">
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="nazwa">HP IPaq</h2>
+              <img class="item_thumb zdj" src="img/HP-Ipaq.png" alt="Telefon">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="cena">1299.99zł</h2>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-4">
+
+            </div>
+
+            <div class="col-xs-3">
+              <input value="1" type="text" form-control placeholder="Ilość"><br>
+
+            </div>
+
+            <div class="col-xs-5">
+              <a class="item_add btn btn-primary" href="javascript:;"> Dodaj! </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <div class="col-md-4 item text-center  mix HP" data-price="1699.99">
+        <div class="simpleCart_shelfItem">
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="nazwa">HP IPaq 211</h2>
+              <img class="item_thumb zdj" src="img/HP-Ipaq 211.png" alt="Telefon">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="cena">1699.99zł</h2>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-4">
+
+            </div>
+
+            <div class="col-xs-3">
+              <input value="1" type="text" form-control placeholder="Ilość"><br>
+
+            </div>
+
+            <div class="col-xs-5">
+              <a class="item_add btn btn-primary" href="javascript:;"> Dodaj! </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-4 item text-center  mix HTC" data-price="1599.99">
+        <div class="simpleCart_shelfItem">
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="nazwa">HTC Touch</h2>
+              <img class="item_thumb zdj" src="img/HTC-Touch.png" alt="Telefon">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="cena">1599.99zł</h2>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-4">
+
+            </div>
+
+            <div class="col-xs-3">
+              <input value="1" type="text" form-control placeholder="Ilość"><br>
+
+            </div>
+
+            <div class="col-xs-5">
+              <a class="item_add btn btn-primary" href="javascript:;"> Dodaj! </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-md-4 item text-center mix HTC" data-price="1699.99">
+        <div class="simpleCart_shelfItem">
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="nazwa">HTC Trinity</h2>
+              <img class="item_thumb zdj" src="img/HTC-Trinity.png" alt="Telefon">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="cena">1699.99zł</h2>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-xs-4">
+
+            </div>
+
+            <div class="col-xs-3">
+              <input value="1" type="text" form-control placeholder="Ilość"><br>
+
+            </div>
+
+            <div class="col-xs-5">
+              <a class="item_add btn btn-primary" href="javascript:;"> Dodaj! </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+  <div class="gap"></div>
+  <div class="gap"></div>
+
+
+  </div>
+
+
+
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+  <script src="js/simpleCart.js"></script>
+  <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.2"></script>
+
+
+
+
+
+
+
+
+
+  <footer>
+    <p> &copy Kocialski Remigiusz 14.04.2020</p>
+  </footer>
+</body>
+
+</html>
